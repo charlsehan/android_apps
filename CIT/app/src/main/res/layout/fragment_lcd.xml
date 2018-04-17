@@ -1,0 +1,20 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".com.cloudminds.cit.cases.LCDFragment">
+
+    <TextView
+        android:id="@+id/color_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/action_button_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:paddingBottom="30dp">
+        <include layout="@layout/action_buttons"/>
+    </LinearLayout>
+</FrameLayout>

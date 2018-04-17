@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"CIT"</string>
+    <string name="test_pass">"通过"</string>
+    <string name="test_fail">"失败"</string>
+    <string name="retest">"重测"</string>
+    <string name="vibrator_test">"振动"</string>
+    <string name="speaker_test">"扬声器"</string>
+    <string name="receiver_test">"听筒"</string>
+    <string name="camera_auto_focus">"对焦"</string>
+    <string name="camera_take_picture">"拍照"</string>
+    <string name="recorder_test">"录音测试"</string>
+    <string name="playing">"正在播放…"</string>
+    <string name="record_finish">"录音完成"</string>
+    <string name="recording">"正在录音…"</string>
+    <string name="plug_in_earphone">"请插入耳机开始测试"</string>
+    <string name="start">"开始"</string>
+    <string name="press_earphone_key">"请按耳机按键"</string>
+    <string name="earphone_key_pressed">"耳机按键被按下\n按键测试成功"</string>
+    <string name="earphone_test">"耳机"</string>
+    <string name="key_test">"按键测试"</string>
+    <string name="key_volume_up">"音量上键"</string>
+    <string name="key_volume_down">"音量下键"</string>
+    <string name="backlight_test">"背光测试"</string>
+    <string name="accelerometer_test">"加速度传感器"</string>
+    <string name="sensor_value_x">X:</string>
+    <string name="sensor_value_y">Y:</string>
+    <string name="sensor_value_z">Z:</string>
+    <string name="proximity_test">"近距离传感器"</string>
+    <string name="proximity_sensor_value">"距离:"</string>
+    <string name="light_sensor_value">"照明强度:"</string>
+    <string name="light_sensor_test">"光强度传感器"</string>
+    <string name="flashlight_test">"闪光灯"</string>
+    <string name="led_test">LED</string>
+</resources>

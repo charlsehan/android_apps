@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/button_retest"
+        style="@style/ActionButtonStyle"
+        android:layout_marginLeft="@dimen/action_button_margin"
+        android:layout_marginRight="@dimen/action_button_margin"
+        android:text="@string/power_saving"/>
+
+    <TextView
+        android:id="@+id/button_fail"
+        style="@style/ActionButtonStyle"
+        android:layout_marginLeft="@dimen/action_button_margin"
+        android:layout_marginRight="@dimen/action_button_margin"
+        android:text="@string/traffic_manager"/>
+
+</LinearLayout>

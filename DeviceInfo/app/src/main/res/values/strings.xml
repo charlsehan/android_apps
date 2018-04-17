@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Device Info</string>
+    <string name="version_text">Hardware Version\nSP1.1\nSoftware Version\nA1-901.3.9</string>
+</resources>

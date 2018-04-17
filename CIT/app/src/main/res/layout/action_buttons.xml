@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/button_retest"
+        style="@style/ActionButtonStyle"
+        android:layout_marginLeft="@dimen/action_button_margin"
+        android:layout_marginRight="@dimen/action_button_margin"
+        android:text="@string/retest"/>
+
+    <TextView
+        android:id="@+id/button_fail"
+        style="@style/ButtonFailStyle"
+        android:layout_marginLeft="@dimen/action_button_margin"
+        android:layout_marginRight="@dimen/action_button_margin"
+        android:text="@string/test_fail"/>
+
+    <TextView
+        android:id="@+id/button_pass"
+        style="@style/ButtonPassStyle"
+        android:layout_marginLeft="@dimen/action_button_margin"
+        android:layout_marginRight="@dimen/action_button_margin"
+        android:text="@string/test_pass"/>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Updater" parent="@android:style/Theme.Material.Settings">
+        <item name="android:actionBarStyle">@style/ThemeActionBar</item>
+    </style>
+
+    <style name="ThemeActionBar" parent="@android:style/Widget.Material.ActionBar.Solid">
+        <item name="android:displayOptions"></item>
+    </style>
+</resources>

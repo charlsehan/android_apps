@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MessageViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">@dimen/message_view_padding</item>
+        <item name="android:background">@null</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/message_view_text_size</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="ActionButtonStyle">
+        <item name="android:layout_width">@dimen/action_button_width</item>
+        <item name="android:layout_height">@dimen/action_button_height</item>
+        <item name="android:background">@drawable/action_button</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/action_button_text_size</item>
+        <item name="android:gravity">center</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="ButtonFailStyle" parent="ActionButtonStyle">
+        <item name="android:background">@drawable/fail_button</item>
+    </style>
+
+    <style name="ButtonPassStyle" parent="ActionButtonStyle">
+        <item name="android:background">@drawable/pass_button</item>
+    </style>
+
+    <style name="KeyLabelStyle">
+        <item name="android:layout_width">180dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_margin">20dp</item>
+        <item name="android:background">@color/key_label_color</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="SensorValueLabelStyle" parent="KeyLabelStyle">
+        <item name="android:layout_width">240dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+</resources>

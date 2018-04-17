@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cloudminds.calllogsearch" >
+
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/call_log_search">
+        <activity
+            android:name=".CallLogSearchActivity"
+            android:excludeFromRecents="true"
+            android:label="@string/call_log_search"
+            android:stateNotNeeded="true"
+            android:theme="@android:style/Theme.NoDisplay" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+
+        <provider
+            android:name=".CallLogSearchProvider"
+            android:authorities="call_log_search"
+            android:enabled="true"
+            android:exported="true"
+            android:readPermission="android.permission.READ_CALL_LOG"
+            android:writePermission="android.permission.WRITE_CALL_LOG">
+            <path-permission android:path="/calls/search_suggest_query"
+                android:readPermission="android.permission.GLOBAL_SEARCH" />
+        </provider>
+    </application>
+
+</manifest>

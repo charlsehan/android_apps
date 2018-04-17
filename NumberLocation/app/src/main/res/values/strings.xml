@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NumberLocation</string>
+
+    <string name="hello">Input a number to lookup the location</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="lookup">Look Up</string>
+</resources>

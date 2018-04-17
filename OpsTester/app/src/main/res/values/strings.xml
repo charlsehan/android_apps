@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">OpsTester</string>
+    <string name="contacts_read">Contacts Read</string>
+    <string name="contacts_write">Contacts Write</string>
+    <string name="calllog_read">CallLog Read</string>
+    <string name="calllog_write">CallLog Write</string>
+    <string name="sms_read">SMS Read</string>
+    <string name="sms_write">SMS Write</string>
+</resources>

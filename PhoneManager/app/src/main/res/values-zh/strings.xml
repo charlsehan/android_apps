@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">手机管家</string>
+    <string name="power_saving">省电管理</string>
+    <string name="traffic_manager">流量管理</string>
+    <string name="touch_to_scan">点击扫描</string>
+    <string name="storage_manager">内存管理</string>
+</resources>

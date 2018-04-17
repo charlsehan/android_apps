@@ -1,0 +1,45 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/message"
+                style="@style/MessageViewStyle"
+                android:text="@string/key_test"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+            <TextView
+                android:id="@+id/key_label_volume_up"
+                style="@style/KeyLabelStyle"
+                android:text="@string/key_volume_up"/>
+            <TextView
+                android:id="@+id/key_label_vollume_down"
+                style="@style/KeyLabelStyle"
+                android:text="@string/key_volume_down"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/action_button_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:paddingBottom="30dp">
+        <include layout="@layout/action_buttons"/>
+    </LinearLayout>
+</FrameLayout>

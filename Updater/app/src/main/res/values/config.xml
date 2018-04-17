@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Output some debug strings -->
+    <item type="bool" name="debug_output">true</item>
+
+    <!-- Property to read for ROM version -->
+    <string name="property_version">ro.build.display.id</string>
+
+    <!-- Property to read for device identifier -->
+    <string name="property_device">ro.product.device</string>
+
+    <!-- Path deltas are stored, relative to sdcard root -->
+    <string name="path_base">iamidata</string>
+
+    <!-- URL base to find the data info file -->
+    <string name="data_info_url">http://111.13.139.142:8065/getversion/<xliff:g id="version">%s</xliff:g></string>
+
+    <!-- URL base to find the zip file -->
+    <string name="package_url">http://111.13.139.142:8066/?token=<xliff:g id="token">%s</xliff:g>&amp;path=<xliff:g id="path">%s</xliff:g></string>
+
+    <string-array name="keep_screen_on_devices">
+        <item>shamu</item>
+        <item>E601</item>
+    </string-array>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PhoneManager</string>
+    <string name="power_saving">Power saving</string>
+    <string name="traffic_manager">Traffic manager</string>
+    <string name="touch_to_scan">Touch to scan</string>
+    <string name="storage_manager">Storage manager</string>
+</resources>
